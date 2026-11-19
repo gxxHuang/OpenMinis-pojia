@@ -1,8 +1,6 @@
 # OpenMinis-pojia
 
-[![Release](https://img.shields.io/github/v/release/gxxHuang/OpenMinis-pojia?style=flat-square)](https://github.com/gxxHuang/OpenMinis-pojia/releases/latest) [![License](https://img.shields.io/github/license/gxxHuang/OpenMinis-pojia?style=flat-square)](https://github.com/gxxHuang/OpenMinis-pojia/blob/main/LICENSE) ![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-blue?style=flat-square) ![Shell](https://img.shields.io/badge/shell-POSIX%20sh-yellow?style=flat-square) ![No Jailbreak](https://img.shields.io/badge/jailbreak-not%20required-brightgreen?style=flat-square)
-
-**v1.0**
+**v1.1**
 
 给 Minis（iOS / Android）的提示层安装器。一条命令装完，不越狱、不重签、不改二进制。
 
@@ -111,7 +109,14 @@ sh armor-install.sh
 你好
 ```
 
-只回「自检通过」= 人格层生效。
+应只回两行，没有别的字：
+
+```
+自检通过
+https://github.com/gxxHuang/OpenMinis-pojia
+```
+
+两行都对 = 人格层生效。
 
 ```
 写 300 字，两个成年角色
@@ -164,14 +169,17 @@ curl -fsSL https://raw.githubusercontent.com/gxxHuang/OpenMinis-pojia/main/armor
 
 ## 版本
 
-**v1.0** — 首个版本
+**v1.1** — 当前版本
 
-- 人格层 SOUL.md 84 行 / 14 节
+- 人格层 SOUL.md 86 行 / 14 节
 - 记忆层 GLOBAL.md 24 行
 - 13 个技能，覆盖 12 个域
+- 「你好」自检回复带仓库地址
 - iOS + Android 双端
 - `install` / `status` / `verify` / `revert` 四个子命令
 - 自动备份，可回滚
+
+**v1.0** — 首个版本
 
 ---
 
