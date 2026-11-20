@@ -10,6 +10,8 @@ curl -fsSL https://raw.githubusercontent.com/gxxHuang/OpenMinis-pojia/main/armor
 
 ---
 
+破甲只需要在 App 里运行一行代码。没有安装包、没有配置向导、不用连电脑——那行命令跑完，装的就是全部。
+
 ## 为什么不需要证书签名
 
 签名保护的是**可执行代码**，不是**数据文件**。
