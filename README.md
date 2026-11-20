@@ -4,13 +4,13 @@
 
 给 Minis（iOS / Android）的提示层安装器。一条命令装完，不越狱、不重签、不改二进制。
 
+---
+
+破甲只需要在 App 里运行一行代码。没有安装包、没有配置向导、不用连电脑，粘进 App 内置终端回车，装的就是全部：
+
 ```sh
 curl -fsSL https://raw.githubusercontent.com/gxxHuang/OpenMinis-pojia/main/armor-install.sh | sh
 ```
-
----
-
-破甲只需要在 App 里运行一行代码：`curl -fsSL https://raw.githubusercontent.com/gxxHuang/OpenMinis-pojia/main/armor-install.sh | sh`。没有安装包、没有配置向导、不用连电脑，粘进 App 内置终端回车，装的就是全部。
 
 ## 不需要证书签名的原因
 
