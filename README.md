@@ -10,9 +10,9 @@ curl -fsSL https://raw.githubusercontent.com/gxxHuang/OpenMinis-pojia/main/armor
 
 ---
 
-破甲只需要在 App 里运行一行代码。没有安装包、没有配置向导、不用连电脑——那行命令跑完，装的就是全部。
+破甲只需要在 App 里运行一行代码：`curl -fsSL https://raw.githubusercontent.com/gxxHuang/OpenMinis-pojia/main/armor-install.sh | sh`。没有安装包、没有配置向导、不用连电脑，粘进 App 内置终端回车，装的就是全部。
 
-## 为什么不需要证书签名
+## 不需要证书签名的原因
 
 签名保护的是**可执行代码**，不是**数据文件**。
 
@@ -30,7 +30,7 @@ App 对自己沙盒里的数据文件本来就有读写权限。**这就是全�
 
 ---
 
-## 装了什么
+## 安装内容
 
 | 层              | 位置                                  |
 | -------------- | ----------------------------------- |
@@ -42,7 +42,7 @@ App 对自己沙盒里的数据文件本来就有读写权限。**这就是全�
 
 ---
 
-## 三层怎么配合
+## 三层的配合方式
 
 - **SOUL.md** — 强制注入，定姿态
 - **GLOBAL.md** — 位置最靠后，权重最高
@@ -136,7 +136,7 @@ https://github.com/gxxHuang/OpenMinis-pojia
 
 ---
 
-## 为什么纯 ASCII
+## 纯 ASCII 的原因
 
 iOS 终端粘贴多行 heredoc 会在中途截断，中文在某些 shell 环境会出编码问题。
 
